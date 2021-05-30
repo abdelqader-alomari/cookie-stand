@@ -1,0 +1,17 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+#container li{
+    block-size: 25px;
+    color:rgb(17, 17, 26);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border:cornsilk;
+    border-spacing: 1px;
+    border-width: 2px;
+    border-style:double;
+    border-left: 6px solid red;
+  background-color:aquamarine;
+    list-style-type:symbols();
+}
