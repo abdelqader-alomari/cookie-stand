@@ -1,17 +1,40 @@
-body{
-    background-color: skyblue;
-    text-align: center;
+table, th, td {
+	border: 1px black solid;
 }
-#container li{
-    block-size: 25px;
-    color:rgb(17, 17, 26);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    border:cornsilk;
-    border-spacing: 1px;
-    border-width: 2px;
-    border-style:double;
-    border-left: 6px solid red;
-  background-color:aquamarine;
-    list-style-type:symbols();
+table {
+	border-spacing: 5px 5px;
+}
+table {
+	width: 100%;
+}
+
+th {
+	height: 30px;
+}
+th, td {
+	padding: 10px;
+}
+th {
+	text-align: left;
+}
+
+td {
+	text-align: center;
+}
+td {
+    height: 25px;
+    vertical-align: bottom;
+    }
+th, td {
+	border-bottom: 1px solid black;
+}
+tr:hover {
+    background-color: lightgray;
+    }
+th {
+	background-color: rgb(130, 175, 201);
+	color: white;
+}
+tr:nth-child(even) {
+	background-color: rgb(169, 210, 226);
 }
