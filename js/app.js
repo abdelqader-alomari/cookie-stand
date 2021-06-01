@@ -42,12 +42,16 @@ function hourTableRow(){
   let thTime = document.createElement('th');
   thTime.textContent = ("Open Hours");
   trTime.appendChild(thTime);
-
+  
   for (let i = 0; i < hours.length; i++){
     let tdTime = document.createElement('td');
     tdTime.textContent = `${hours[i]}`
     trTime.appendChild(tdTime);
   }
+
+  let dailyTot = document.createElement('th');
+  trTime.appendChild(dailyTot);
+  dailyTot.textContent = 'Daily Total';
 }
 
 function createTable(stores) {
@@ -61,7 +65,7 @@ function createTable(stores) {
   thEl.textContent = `${stores.storeLocation}`
   trEl.appendChild(thEl);
 
-  for (let i = 0; i+1 < hours.length; i++){
+  for (let i = 0; i < hours.length; i++){
     let tdEl = document.createElement('td');
     tdEl.textContent = `${stores.totalCookiesPerHour[i]}`
     trEl.appendChild(tdEl);
@@ -80,7 +84,7 @@ function totalRow(){
   tfTot.textContent = ("Total");
   trTot.appendChild(tfTot);
 
-  for (let i = 0; i < hours.length -1; i++){
+  for (let i = 0; i < hours.length; i++){
     let tdTot = document.createElement('td');
     trTot.appendChild(tdTot);
     let fTotal = 0;
