@@ -137,3 +137,7 @@ body {
   article ul li{
       width: 20%;
   }
+  input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
