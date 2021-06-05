@@ -8,9 +8,9 @@ table.id = 'tableId'
 
 let allShops=[];
 
-function Store (storeLocation,minSCustomers,maxCustomers,avgCookies){
+function Store (storeLocation,minCustomers,maxCustomers,avgCookies){
   this.storeLocation = storeLocation;
-  this.minCustomers = minSCustomers;
+  this.minCustomers = minCustomers;
   this.maxCustomers = maxCustomers;
   this.avgCookies = avgCookies;
   this.totalCookiesPerHour = [];
