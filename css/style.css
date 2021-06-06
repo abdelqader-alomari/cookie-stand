@@ -1,17 +1,156 @@
-body{
-    background-color: skyblue;
-    text-align: center;
-}
-#container li{
-    block-size: 25px;
-    color:rgb(17, 17, 26);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+  header {
+    height: 100px;
+    background-color: rgb(200, 100, 89);
+    font-family: "Roboto";
+  }
+  
+  header nav {
+    width: 960px;
+    margin: auto;
+  }
+  
+  header img {
+    margin-top: 15px;
+    float: left;
+    width: 100px;
+    margin-left: 300px;
+  }
+  
+  header ul {
+    float: left;
+  }
+  
+  header li {
+    display: inline;
+    line-height: 80px;
+    margin-left: 85px;
+  }
+  
+  header li:first-child {
+    margin-left: 30px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  main {
+    width: 960px;
+    margin: auto;
+  }
+  
+  main img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  main li:first-child {
+    margin-left: 0px;
+  }
+  
+  main li {
+    margin-left: 30px;
+    float: left;
+  }
+  
+  main h2 {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
     font-weight: bold;
+    margin-left: 30px;
+    text-align: center;
+    border: solid;
+  }
+  
+  
+  
+  main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 30px;
+    line-height: 20px;
+    overflow: auto;
+    height: 25px;
+    margin-top: 5px;
+    color: rgb(255, 96, 96);
+  }
+  main h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(255, 96, 96);
+
+  }
+  
+  /* main h2, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  } */
+  section img {
+    width: 100%;
+  }
+  
+  footer {
     font-family: Arial, Helvetica, sans-serif;
-    border:cornsilk;
-    border-spacing: 1px;
-    border-width: 2px;
-    border-style:double;
-    border-left: 6px solid red;
-  background-color:aquamarine;
-    list-style-type:symbols();
+    background-color: rgb(206, 128, 120);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    
+  }
+  
+  pre {
+    display: inline-block;
+    font-family: monospace;
+    white-space: pre-line;
 }
+  .Seattle {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+  }
+  
+  .Lima {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+  }
+  
+  .Dubai {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+  }
+  
+  .Tokyo {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+  }
+  .Paris {
+    display: inline-block;
+      float:left;
+      padding: 5px;
+  }
+  pre h3{
+      font-weight: bolder;
+      font-size: larger;
+  }
+  article {
+      white-space: pre;
+      text-align: center;
+      float:inline-start;
+  }
+  article ul li{
+      width: 20%;
+  }
+  input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
