@@ -1,10 +1,10 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
   header {
     height: 100px;
     background-color: rgb(200, 100, 89);
+    font-family: "Roboto";
   }
   
   header nav {
@@ -58,6 +58,7 @@ body {
   }
   
   main h2 {
+    font-family: "Roboto Condensed";
     font-size: 20px;
     font-weight: bold;
     margin-left: 30px;
@@ -68,19 +69,31 @@ body {
   
   
   main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     margin-left: 30px;
     line-height: 20px;
     overflow: auto;
     height: 25px;
     margin-top: 5px;
+    color: rgb(255, 96, 96);
+  }
+  main h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(255, 96, 96);
+
   }
   
+  /* main h2, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  } */
   section img {
     width: 100%;
   }
   
   footer {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(206, 128, 120);
     left: 0;
     bottom: 0;
